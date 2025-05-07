@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Inicio</title>
+</head>
+
+<body>
+
+    <h2>Topaz & Numby</h2>
+    <img src="assets/splashart/topaz.png" alt="" width="35%"><br><br>
+
+    <h3>Light Cone</h3>
+    <button id="openModal2">Add Light Cone</button>
+
+    <div id="overlay-2"></div>
+
+    <div id="modal-2">
+        <div class="gallery" id="tabelaBody">
+            <!-- As imagens serão inseridas aqui via JavaScript -->
+        </div>
+        <button class="close-btn-2" id="closeModal2">Fechar</button>
+    </div>
+
+    <br><br>
+    <p id="nomeImagem"></p> <!-- Nome da imagem aparece aqui -->
+    <img id="imagemSelecionada" src="" alt="Imagem escolhida" width="27%"><br><br>
+
+    <h3>Character Attributes</h3>
+    <ul>
+        <li>HP: <span id="hp"></span></li>
+        <li>ATK: <span id="atk"></span></li>
+        <li>DEF: <span id="def"></span></li>
+        <li>SPD: <span id="spd"></span></li>
+        <li>Crit Rate: <span id="critRate"></span></li>
+        <li>Crit Dmg: <span id="critDmg"></span></li>
+        <li>Break Effect: <span id="breakEffect"></span></li>
+        <li>Healing Bonus: <span id="healingBonus"></span></li>
+        <li>Energy Regen Rate: <span id="energyRegenRate"></span></li>
+        <li>Effect Hit Rate: <span id="effectHitRate"></span></li>
+        <li>Effect Res: <span id="effectRes"></span></li>
+    </ul>
+
+    <h3>Build</h3>
+    <button id="openModal">Head</button>
+
+    <div id="overlay"></div>
+
+    <div id="modal">
+        <h2>Head</h2>
+
+        <div class="select-group disable">
+            <select id="disabled-select" disabled>
+                <option>HP</option>
+            </select>
+        </div>
+
+        <!-- Contêiner para os selects dinâmicos -->
+        <div id="select-container"></div>
+
+        <!-- Botão de Enviar -->
+        <button id="submit-btn">Enviar</button>
+    </div>
+
+    <p>Hands</p>
+    <p>Body</p>
+    <p>Feet</p>
+    <p>Planar Sphere</p>
+    <p>Link Rope</p>
+
+    <script>
+
+    </script>
+
+    <script type="module" src="js/index.js"></script>
+</body>
+
+</html>
